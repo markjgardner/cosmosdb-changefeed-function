@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+      "proxy1": {
+          "matchCondition": {
+              "methods": [ "GET" ],
+              "route": "/loaderio-fd6d6546045c38f3e49f89da7d1bb71e.txt"
+          },
+          "backendUri": "https://storageaccountcosmo8f40.blob.core.windows.net/loader/loaderio-fd6d6546045c38f3e49f89da7d1bb71e.txt"
+      }
+  }
+}
